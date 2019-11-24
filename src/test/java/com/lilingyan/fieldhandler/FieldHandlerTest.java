@@ -43,4 +43,11 @@ public class FieldHandlerTest {
         System.out.println(person);
     }
 
+    @Test
+    public void inStr(){
+        String s = "";
+        FieldHandler.inProcess(s);
+        System.out.println(s);
+    }
+
 }
